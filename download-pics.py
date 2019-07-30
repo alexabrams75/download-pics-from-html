@@ -3,10 +3,11 @@ from urllib.request import urlretrieve
 import os
 import sys
 
-# Script to parse HTML files and find all linked images, and download them 
+# Script to parse HTML files and find all linked images, and download them \
 
 # Folder where all the HTML files are located
-folder = "T:\\Web Team\\P6 Employee Files\\Mr. Abrams\\Info pages review - new website\\html"
+fileLoc = 'PLACEHOLDER'
+folder = fileLoc
 
 # for each file in the folder
 for file in os.listdir(folder):
